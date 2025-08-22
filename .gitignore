@@ -26,5 +26,38 @@ app.*.map.json
 # macOS
 .DS_Store
 
-# Environment variables
+# Environment variables - NEVER COMMIT THESE!
 .env
+.env.local
+.env.production
+.env.development
+
+# Service account keys - NEVER COMMIT THESE!
+*.json
+*-key.json
+service-account*.json
+gemini-chatbot-key.json
+
+# API keys and secrets
+api-keys.txt
+secrets.txt
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.config.dart
+
+# Coverage
+coverage/
+
+# Firebase (if used)
+firebase_options.dart
+google-services.json
+GoogleService-Info.plist
